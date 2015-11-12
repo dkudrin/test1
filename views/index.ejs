@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript Developer Test</title>    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+    <div class="row menu">
+        <div class="col-md-2">
+          <a class="btn btn-default async_request" href="#" role="button">Make async request</a>
+        </div>
+        <div class="col-md-2">
+          <a class="btn btn-default sync_request" href="#" role="button">Make sync request</a>
+        </div>
+        <div class="col-md-2">
+          <a class="btn btn-default clear_page" href="#" role="button">Clear page</a>
+        </div>
+    </div>
+    <div class="row cell_table">
+        <div class="col-md-4" id="empty_cell" style="display:none">
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel heading</div>
+            <div class="panel-body">
+              Panel content
+            </div>
+          </div>
+        </div>
+    </div>
+    </div><!--end of div container-->
+    <footer>
+      <div id="logger">
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/client.js"></script>
+    </footer>
+    
+  </body>
+</html>

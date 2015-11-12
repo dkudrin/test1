@@ -1,0 +1,24 @@
+.container {
+	margin-bottom: 200px;
+}
+.menu {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.panel-body {
+	min-height: 50px;
+}
+footer {
+	position: fixed;
+	bottom: 0px;
+	height: 200px;
+	width: 100%;
+	overflow: auto;
+	background-color: #0F3C30;	
+}
+#logger {
+	width: 80%;
+	margin: auto;
+	padding: 25px;	
+	color: white;	
+}
